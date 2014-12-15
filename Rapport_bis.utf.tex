@@ -31,7 +31,7 @@
 
 %%%% Indiquer le nom de l'encadrant ci-dessous:
 
-\def\nomEncad{Julien \textsc{Sopena}, Antoine \textsc{Blin}}
+%\def\nomEncad{Julien \textsc{Sopena}, Antoine \textsc{Blin}}
 
 %% Si le projet est co-encadré indiquer les deux noms à la suite dans 
 %% Le même champs
@@ -40,7 +40,7 @@
 %%%% Indiquer les noms des étudiants participant ci-dessous:
 
 \def\nomEtudA{Louisa \textsc{Bessad}}
-\def\nomEtudB{Roberto \textsc{Medina}}
+%\def\nomEtudB{Roberto \textsc{Medina}}
 
 %% Si le projet est encadré par moins de 4 étudiants laissez
 %% les variables inutiles vides
@@ -48,9 +48,9 @@
 
 %%%% Indiquer la référence (numero) et le nom du sujet ci-dessous:
 
-\def\refProjet{22} 
-\def\titreProjetCourt{Temps-réel en multi-cœurs}
-\def\titreProjetLong{Temps-réel en multi-cœurs~: problème de la contention mémoire}
+%\def\refProjet{22} 
+\def\titreProjetCourt{Insertion Professionnelle}
+\def\titreProjetLong{Veille Sectorielle}
 
 %% Le titre court ne doit pas faire plus d'une vingtaine de caractère
 %% résumez le à quelques mots essenciels
@@ -76,9 +76,9 @@
 \setlength{\voffset}{-1in} % a4:reste 297mm pour les 5 suivants:
 \setlength{\topmargin}{15mm}         % avant l'en-tête
 \setlength{\headheight}{20mm}        % hauteur de l'en-tête 
-\setlength{\headsep}{10mm}            % entre l'en-tête et le corps
+\setlength{\headsep}{12mm}            % entre l'en-tête et le corps
 \setlength{\textheight}{220mm}       % hauteur du corps
-\setlength{\footskip}{12mm}          % pied de page par rapport au corps 
+\setlength{\footskip}{15mm}          % pied de page par rapport au corps 
 %\setlength{\footlength}{2em}
 
 %%%%% --- Mise en page horizontale ---
@@ -87,7 +87,7 @@
 \setlength{\evensidemargin}{25mm}    % entre hoffset et le corps
 \setlength{\marginparwidth}{0mm}     % largeur de la marge
 \setlength{\marginparsep}{0mm}       % séparateur corps marge
-\setlength{\textwidth}{160mm}        % largeur du corps
+\setlength{\textwidth}{120mm}        % largeur du corps
 
 %\usepackage{fullpage}
 %\setlength{\headheight}{20mm}        % hauteur de l'en-tête 
@@ -95,7 +95,7 @@
 %\setlength{\textheight}{200mm}
 %\setlength{\footskip}{0mm}          % pied de page par rapport au corps 
 
-\def\annee{2013-14}
+\def\annee{2014-2015}
 
 
 
@@ -115,9 +115,9 @@
 %\fancyfoot{}
 %
 \fancyhead[L]{\textsc{Université Pierre et Marie Curie}\\
-          Master Informatique\\ UE \textbf{PSAR} \annee \\ \nomEncad}
-\fancyhead[C]{\textbf{Projet \refProjet\\\titreProjetCourt}}
-\fancyhead[R]{\nomEtudA\\\nomEtudB\vspace{1em}}
+          Master Informatique\\ UE \textbf{IP} \annee}
+%\fancyhead[C]{\textbf{Projet \refProjet\\\titreProjetCourt}}
+\fancyhead[R]{\nomEtudA \\ \vspace{0em}}
 
 \fancyfoot[L]{\includegraphics[width=3cm]{UPMC_sorbonne}}
 \fancyfoot[C]{\textbf{\thepage/\pageref{fin}}}
@@ -145,8 +145,7 @@
         \begin{boxedminipage}{12cm}{
             \begin{center}
               ~\\\LARGE\textbf{\titreProjetLong}\\
-              ~\\\large Encadrant: \textbf{\nomEncad,}\\
-              ~\\\large Étudiants: \textbf{\nomEtudA, \nomEtudB}\\
+              ~\\\large Étudiants: \textbf{\nomEtudA}\\
               ~
             \end{center}
             }
@@ -159,15 +158,69 @@
 
 \tableofcontents
 \vfill
-%\newpage
 
-\newpage\section{Introduction}
+\newpage
+\section{Introduction}
+Deux centre d'int\^erets ont été identifié dans le cadre de cette veille sectorielle; la sécurité et les systèmes. Un objectif serait de parvenir à associer ces deux domaines dans le cadre de mon projet professionnel. C'est ce contexte qui a été choisi pour la rédaction de ce rapport. Néanmoins le choix entre l'entreprise et la recherche n'ayant pas encore été fait c'est pourquoi un laboratoire sera présenté parmi les 3 organismes que nous devons détailler.
 
-\newpage\section{Problème de concurrence d'accès}
+\section{Le marché aujourd'hui}
+\subsection{Dans le monde}
+Le domaine de la sécurité informatique est une préoccupation majeure de nos jours dans tous les pays developpés, majoritairement aux USA, en Europe de l'Ouest et en Asie. Elle représente 17\% du budget des entreprises qui possèdent une branche dans ce domaine. Les entreprises spécialisées dans la sécurité informatique fleurissent partout dans le monde, on en compte environ 25000 actuellement, les grands groupes possèdent tous une branche d'activité en sécurité (SAFRAN par exemple). Certains états possèdent m\^eme des agences gouvernementales qui y sont dédiée, on peut penser aux USA et à la France.
 
-\newpage\section{Problème de la sous-réservation de BP mémoire}
+\subsection{À l'échelle nationale}
 
-\newpage\section{Conclusion face au sujet proposé}
+Notre pays n'est pas en reste, en effet il possède environ 1500 entreprises spécialisées dans la sécurité ou possédant un secteur de développement dans ce domaine. M\^eme si cela ne représente que 6\% du marché mondial, la France possède un fort rayonnement à l'étranger dans ce domaine. En effet tous les grands groupes mondiaux ayant une branche sécurité possèdent au moins un site en France et quelque soit le site ce domaine est toujours présent. Ce dernier point permet d'avoir des persepctives de carrières s'ouvrant sur l'étranger.
+\newpage
+\section{Métiers visés}
+Mon projet professionnel possède deux branches; celle de la recherche et celle de l'entreprise. 
 
+\subsection{La recherche}
+Dans le cas de la recherche plusieurs possibilités sont offertes: la thèse ministérielle, la thèse CIFRE et les ATER. Je n'exclus pas de faire une thèse à l'étranger, je pense notamment à l'Allemagne. 
+
+Si je reste en France l'idéal serait de faire une thèse ministérielle. Plusieurs laboratoires font de la recherche en sécurité informatique en France; il y a entre autres le laboratoire de Sophi-Antipolis, celui de TelecomParisTech, celui de l'ESIA.
+
+Dans le cas d'une thèse CIFRE, je voudrais avoir un grand groupe comme entreprise. Je pense notamment à Bull, Thalès et Alyotech.
+
+Quelque soit le type de thèse si je reste dans un laboratoire par la suite j'envisage de candidater au poste de ma\^itre de conférence et par la suite à des postes de grade supérieur. En tant que chercheuse je m'expatrierais peut-\^etre, notamment en Allemagne, au Japon ou aux USA. En effet les chercheurs en France et en Europe sont bien moins payés qu'ailleurs dans le monde, en Europe après environ 5 ans de carrière le salaire  brut peut dépasser les 55K€ par an alors qu'il est de plus de 100K€ aux USA.
+
+\subsection{L'entreprise}
+Dans le cas où je choisirais l'entreprise après mon stage de fin d'études je souhaite travailler dans un grand groupe pour découvrir ce que c'est. L'expérience des PME et TPE ne me tentent pas pour l'instant et je ne souhaite pas travailler en SSII. Je souhaite avoir des responsabilités dans mon travail, voir protéger mon pays. Dans ce cas travailler pour le gouvernement est une perspective intéressante. 
+
+Contrairement à la recherche le salaire d'un employé fraichement diplomé dans une entreprise varie de 33K€ brut à 42K€ par an, n'éanmoins l'augmentation de salaire est rarement supérieur à 2\%. En fin de carrière et selon l'entreprise pour laquelle on travaille le salaire brut avoisine les 70K€ et il peut atteindre les 100K€. L'évolution de carrière est moins rapide dans un grand groupe que dans une PME voir TPE où un employé doit en général occupé tous les postes nécessaires à l'entreprise ou \^etre capable de les gérer. 
+
+\newpage
+Dans le cadre d'une évolution de carrière je ne souhaite pas \^etre développeuse très longtemps, entrer dans un grand groupe sans passer par la case développeurs serait pour moi l'idéal. Les postes d'administrateurs ou d'architectes sont des persepectives intéressantes pour pouvoir faire de la sécurité système. Par la suite je souhaiterais avoir à gérer des projets et possiblement devenir manageur. 
+
+De plus dans cette évolution je souhaiterais passer une partie de ma carrière à l'étranger voir toute ma carrière professionnelle pas forcément dans la m\^eme entreprise, mais cela représente déjà un défi en soi dans mon projet professionnel.
+
+\vspace{1em}
+N'ayant pas encore fait de choix entre recherche et entreprise j'ai choisi de présenter un grand groupe qu'est Thalès, un laboratoire de recherche avec le LHS à Nancy et l'ANSSI qui est une agence gouvernementale française.
+
+\newpage
+\section{Organismes en détails}
+\subsection{Grand Groupe: Thalès}
+Thalès est l'un des plus grand groupes qui existe dans le monde, il developpe des technologies de pointes dans 6 domaines avec un chiffre d'affaires de 14.2 milliards d'euros en 2013. Elle possède environ 65000 collaborateurs dans le monde et a une forte présence internationale. Le groupe est présent sur tout le continent Américain, en Océanie, en Europe de l'Ouest, en Afrique du Sud, en Chine et en Inde soit environ 50 pays dont 20 membres de l'OTAN. La branche sécurité compte 25000 employé de par le monde mais n'est cependant pas développé en Afrique du Sud.
+
+Il y a deux branches pour la sécurité chez Thalès; la branche offensive et la branche défensive. La première consiste à attaquer la menace pour se protéger, la seconde quand à elle vise à poser des barrières pour lutter face à une attaque mais ne propose aucune riposte. La sécurité offensive propose des offres d'emploi uniquement pour les candidats ayant déjà une certaine expérience en sécurité contrairement à la sécurité défensive.
+
+Thalès est un leader mondial en sécurité, il protège 80\% transactions bancaires mondiales et 19 des 20 plus grandes banques. Le groupe est aussi présent pour protéger les compagnies pétrolières, les aéroports et ports ainsi que pour la surveillance aux frontières et urbaine.
+
+\subsection{Laboratoire public: Laboratoire de Haute Sécurité de Nancy}
+Le Laboratoire de Haute Sécurité (LHS) appartient à l'Inria Nancy-Grand Est a été crée en 2009, c'est la seule structure de recherche académique de cette envergure en Europe. Son développement a été permis gr\^ace aux Fonds Européen de Développement Régional. Il se développe sur 3 axes: la virologie, la supervision du réseau et la détection de vulnérabilités dans les systèmes qui communiquent ce qui correspond à la sécurité systèmes puisqu'on a ici des systèmes répartis. Il compte deux équipes d'une vingtaine de chercheurs. Le budget alloué à ce laboratoire n'est pas public néanmoins l'Inria possède un budget annuel d'environ 220M€ qu'elle répartit entre ses 7 centres régionaux.
+faible
+
+\newpage
+\subsection{Gouvernement: Agence Nationale de la Sécurité des Systèmes d'information (ANSSI)}
+L'ANSSI représente l'agence nationale de sécurité informatique pour la France. Elle appartient au secrétariat général de la défense et de la sécurité nationale. Elle dépend donc directement du Premier ministre et du Président.  L'ANSSI n'ayant été créée qu'en 2009 elle a un faible budget; environ 75 millions d'euros par an et compte peu d'agents environ. Les services similaires en Allemagne ou au Royaume-Unis comptent environ 700 personnes, aux Etat-Unis le budget pour des missions semblables est deux fois supérieurs à celui de l'ANSSI.
+
+L'ANSSI fait office d'autorité en ce qui concerne les réglementations de sécurité à appliquer pour la protection des systèmes d'informations et se doit de vérifier l'application de ces mesures. Elle assure un service de veille, de détection, d’alerte et de réaction aux attaques informatiques pour tout ce qui relève de la défense des systèmes d'information, notamment sur les réseaux de l’État. Pour cela elle peut acquérir des produits essentiels à la protection ou les développer par elle m\^eme.
+
+\newpage
+\section{Commentaire de la carte heuristique}
+La MindMap présente une personne de cursus universitaire qui a déjà effectué des déplacements en France pour ses études, de plus elle semble vouloir continuer à se déplacer durant sa vie professionnelle et personnelle. 
+
+Elle est intéressée par l'entreprise et les laboratoires de recherche notamment dans le domaine de la sécurité, des systèmes ainsi que l'environnement et l'énergie. Ces domaines peuvent se mélanger entre eux puisque pour l'environnement et l'énergie on doit concevoir des systèmes sécurisés.
+
+Elle souhaite avoir des responsabilités au vu de l'évolution de carrières qu'elle envisage que ce soit en laboratoire (ma\^itre de conférence) ou en entreprise (gestionnaire de projet / manageur). Elle voudrait travailler dans un cadre de travail agréable qui lui pla\^it et avoir de l'argent visiblement si elle va en entreprise. Ce n'est donc pas un facteur principal de motivation chez elle. Son manque d'expérience professionnel peut-\^etre comblé par sa capacité de travail et d'investissement. Son ouverture d'esprit est un point positif pour une évolution de carrière vers la gestion de projet, le management pour l'entreprise ainsi que pour le travail de recherche avec d'autres collègues en laboratoire.
 \label{fin}
 \end{document}
